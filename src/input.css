@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+nav {
+  @apply bg-neutral-800 flex justify-center;
+}
+
+nav ul {
+  @apply p-3;
+}
+
+nav ul li {
+  @apply inline-block;
+}
+
+nav ul li a {
+  @apply text-white block p-3 px-6 capitalize font-bold rounded-xl hover:bg-neutral-700;
+}
+
+.btn {
+    @apply bg-sky-600 border border-black text-white px-7 py-3 inline-block rounded-xl text-3xl hover:bg-sky-500;
+}
+
+h1 {
+  @apply text-5xl font-bold mb-5;
+}
+
+h2 {
+  @apply font-bold capitalize text-4xl mb-4;
+}
+
+h3 {
+  @apply text-2xl font-thin mb-4;
+}
+
+p {
+  @apply font-thin text-lg;
+}
+
+section {
+  @apply py-32 text-center;
+}
