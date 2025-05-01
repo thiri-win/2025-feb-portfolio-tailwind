@@ -186,6 +186,12 @@
   }
 }
 @layer utilities {
+  .fixed {
+    position: fixed;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -492,6 +498,9 @@ p {
 section {
   padding-block: calc(var(--spacing) * 32);
   text-align: center;
+}
+html {
+  scroll-behavior: smooth;
 }
 @property --tw-border-style {
   syntax: "*";

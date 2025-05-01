@@ -39,3 +39,7 @@ p {
 section {
   @apply py-32 text-center;
 }
+
+html {
+  @apply scroll-smooth;
+}
